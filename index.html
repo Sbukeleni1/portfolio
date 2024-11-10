@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sbukeleni Ndlovu – Personal Shopping & Delivery</title>
+    <style>
+        /* Reset basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic body styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            background: #333;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            display: block;
+        }
+
+        section {
+            padding: 2em;
+            margin: 1em;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #4CAF50;
+            margin-bottom: 0.5em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background: #333;
+            color: #fff;
+        }
+
+        /* Footer link */
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            section {
+                padding: 1em;
+                margin: 0.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sbukeleni Ndlovu</h1>
+        <p>Your Personal Shopper in Durban</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Sbukeleni's Personal Shopping Service</h2>
+        <p>Need anything from Durban? I’m here to help you get it. Fast, reliable, and affordable personal shopping services across South Africa!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Sbukeleni Ndlovu, a dedicated personal shopper based in Durban. I specialize in sourcing, purchasing, and delivering items quickly and efficiently. My goal is to make your shopping experience seamless.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>In-store Purchases</li>
+            <li>Exclusive Product Sourcing</li>
+            <li>Same-Day Delivery within Durban</li>
+            <li>Nationwide Shipping</li>
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>"Sbukeleni’s service is incredible! Fast and reliable every time." – Customer A</p>
+        <p>"Always finds exactly what I need, even last minute. Highly recommend!" – Customer B</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sbukeleni@example.com">sbukeleni@example.com</a></p>
+        <p>Phone: +27 123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sbukeleni Ndlovu - Personal Shopping & Delivery</p>
+    </footer>
+
+    <script>
+        // Smooth scroll effect for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
